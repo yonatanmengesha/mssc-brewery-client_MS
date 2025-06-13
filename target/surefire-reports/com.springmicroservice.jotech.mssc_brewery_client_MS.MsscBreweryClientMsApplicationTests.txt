@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.springmicroservice.jotech.mssc_brewery_client_MS.MsscBreweryClientMsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.82 s - in com.springmicroservice.jotech.mssc_brewery_client_MS.MsscBreweryClientMsApplicationTests

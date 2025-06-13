@@ -1,0 +1,8 @@
+com\springmicroservice\jotech\mssc_brewery_client_MS\web\model\CustomerDto$CustomerDtoBuilder.class
+com\springmicroservice\jotech\mssc_brewery_client_MS\web\config\NIORestTemplateCustomizer.class
+com\springmicroservice\jotech\mssc_brewery_client_MS\web\model\BeerDto$BeerDtoBuilder.class
+com\springmicroservice\jotech\mssc_brewery_client_MS\web\model\BeerDto.class
+com\springmicroservice\jotech\mssc_brewery_client_MS\web\client\BreweryClient.class
+com\springmicroservice\jotech\mssc_brewery_client_MS\MsscBreweryClientMsApplication.class
+com\springmicroservice\jotech\mssc_brewery_client_MS\web\config\BlockingRestTemplateCustomizer.class
+com\springmicroservice\jotech\mssc_brewery_client_MS\web\model\CustomerDto.class
