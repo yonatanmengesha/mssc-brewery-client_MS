@@ -35,6 +35,7 @@ class BreweryClientTest {
 
         assertNotNull(uri);
 
+
         System.out.println(uri.toString());
 
     }
