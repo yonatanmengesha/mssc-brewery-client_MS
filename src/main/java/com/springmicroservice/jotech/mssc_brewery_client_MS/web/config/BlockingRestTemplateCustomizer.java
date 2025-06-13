@@ -33,6 +33,7 @@ public class BlockingRestTemplateCustomizer implements RestTemplateCustomizer {
         this.defaultMaxTotalConnetions = defaultMaxTotalConnetions;
         this.connectionRequestTimeout = connectionRequestTimeout;
         this.socketTimeout = socketTimeout;
+
     }
 
     public ClientHttpRequestFactory clientHttpRequestFactory(){

@@ -26,6 +26,7 @@ class BreweryClientTest {
         assertNotNull(dto);
     }
 
+
     @Test
     void testSavedNewBeer(){
 

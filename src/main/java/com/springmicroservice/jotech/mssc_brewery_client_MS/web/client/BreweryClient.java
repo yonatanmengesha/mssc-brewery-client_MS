@@ -53,6 +53,7 @@ public class BreweryClient {
         return restTemplate.getForObject(apiHost+CUSTOMER_PATH_V1+"/"+uuid.toString(), CustomerDto.class);
     }
 
+
     public URI  saveNewCustomer(CustomerDto customerDto){
 
        return  restTemplate.postForLocation(apiHost+CUSTOMER_PATH_V1,customerDto);
