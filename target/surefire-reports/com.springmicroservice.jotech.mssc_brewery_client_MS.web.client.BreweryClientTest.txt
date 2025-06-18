@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.springmicroservice.jotech.mssc_brewery_client_MS.web.client.BreweryClientTest
--------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.261 s - in com.springmicroservice.jotech.mssc_brewery_client_MS.web.client.BreweryClientTest

@@ -1,1 +1,2 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/yonatanmengesha/mssc-brewery-client_MS/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/yonatanmengesha/mssc-brewery-client_MS/tree/main)
 # mssc-brewery-client-MS
