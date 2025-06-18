@@ -61,7 +61,7 @@ public class BreweryClient {
 
     public void updateCustomer(UUID uuid,CustomerDto customerDto){
 
-        restTemplate.put(apiHost+CUSTOMER_PATH_V1+"/"+uuid,customerDto);
+        restTemplate.put(apiHost+CUSTOMER_PATH_V1+"/"+uuid.toString(),customerDto);
     }
 
     public void deleteCustomerById(UUID uuid){

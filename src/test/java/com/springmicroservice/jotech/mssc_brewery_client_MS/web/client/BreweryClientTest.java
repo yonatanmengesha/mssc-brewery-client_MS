@@ -30,7 +30,7 @@ class BreweryClientTest {
     @Test
     void testSavedNewBeer(){
 
-        BeerDto beerDto =  BeerDto.builder().beerName("New Beer").build();
+        BeerDto beerDto =  getValidBeerDto();
 
         URI uri = client.saveNewBeer(beerDto);
 
@@ -46,7 +46,7 @@ class BreweryClientTest {
     @Test
     void testUpdateBeer(){
 
-        BeerDto beerDto = BeerDto.builder().beerName("New Beer").build();
+        BeerDto beerDto = getValidBeerDto();
 
         client.updateBeer(UUID.randomUUID(),beerDto);
     }
@@ -70,7 +70,7 @@ class BreweryClientTest {
 
     @Test
     void testSaveCustomer(){
-        CustomerDto customerDto = CustomerDto.builder().name("Yonatan").build();
+        CustomerDto customerDto = getValidCustomerDto();
        URI uri =  client.saveNewCustomer(customerDto);
 
        assertNotNull(uri);
@@ -81,7 +81,7 @@ class BreweryClientTest {
     @Test
     void testUpdateCustomer(){
 
-        CustomerDto customerDto = CustomerDto.builder().name("Yonatan").build();
+        CustomerDto customerDto = getValidCustomerDto();
 
         client.updateCustomer(UUID.randomUUID(),customerDto);
     }
@@ -89,6 +89,18 @@ class BreweryClientTest {
     @Test
     void testDeleteCustomer(){
         client.deleteCustomerById(UUID.randomUUID());
+    }
+
+
+    BeerDto getValidBeerDto(){
+     return    BeerDto.builder().beerName("New Beer")
+                .beerStyle("PALE_ALE")
+                .upc(1234567890L).build();
+    }
+
+    CustomerDto getValidCustomerDto(){
+        return CustomerDto.builder()
+                .customerName("Yonatan M").build();
     }
 
 
