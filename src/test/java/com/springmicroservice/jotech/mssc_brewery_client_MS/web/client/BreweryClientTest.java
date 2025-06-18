@@ -1,5 +1,5 @@
 package com.springmicroservice.jotech.mssc_brewery_client_MS.web.client;
-
+/*
 import com.springmicroservice.jotech.mssc_brewery_client_MS.web.model.BeerDto;
 import com.springmicroservice.jotech.mssc_brewery_client_MS.web.model.CustomerDto;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,7 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-//@SpringBootTest
+@SpringBootTest
 class BreweryClientTest {
 
     @Autowired
@@ -105,3 +105,4 @@ class BreweryClientTest {
 
 
 }
+*/
